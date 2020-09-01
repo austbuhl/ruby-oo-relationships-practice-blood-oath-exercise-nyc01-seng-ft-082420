@@ -10,6 +10,7 @@ end
 mansons = Cult.new("Manson Family", "Los Angeles", 1969, "Sex, drugs & rock n roll")
 heavens_gate = Cult.new("Heaven's Gate", "San Diego", 1974, "Earth will be recycled")
 nxivm = Cult.new("NXIVM", "Albany", 1998, "Executive success!")
+testcult = Cult.new("TESTTT", "San Diego", 1975, "Stay classy")
 
 charles = Follower.new("Charles", 45, "We're all family")
 keith = Follower.new("Keith", 50, "I'm a genius")
@@ -20,6 +21,8 @@ blood_oath2 = BloodOath.new(mansons, mojo, "1969-12-15")
 blood_oath3 = BloodOath.new(heavens_gate, mojo, "1978-05-25")
 blood_oath4 = BloodOath.new(nxivm, keith, "1998-04-19")
 blood_oath5 = BloodOath.new(heavens_gate, keith, "1978-12-31")
+blood_oath6 = BloodOath.new(testcult, keith, "1998-12-31")
+
 
 binding.pry
 
